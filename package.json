@@ -1,0 +1,13 @@
+{
+  "name": "semver-ranges-overlap",
+  "dependencies": {
+    "semver": "^5.2.0"
+  },
+  "scripts": {
+    "test": "defence README.md | replace-require-self | node"
+  },
+  "devDependencies": {
+    "defence-cli": "^2.0.0",
+    "replace-require-self": "^1.1.1"
+  }
+}
